@@ -16,7 +16,7 @@ sources:
   - https://github.com/newrelic/helm-charts/tree/master/charts/newrelic-pixie
   - https://github.com/newrelic/newrelic-infra-operator/tree/master/charts/newrelic-infra-operator
 
-version: 5.0.7
+version: 5.0.8
 
 dependencies:
   - name: newrelic-infrastructure
@@ -72,7 +72,7 @@ dependencies:
     alias: pixie-chart
     repository: https://pixie-operator-charts.storage.googleapis.com
     condition: pixie-chart.enabled
-    version: 0.0.38
+    version: 0.1.0
 
   - name: newrelic-infra-operator
     repository: https://newrelic.github.io/newrelic-infra-operator
